@@ -144,6 +144,7 @@ a {
   /* flex-basis: 35%;
   flex-grow: 0;
   flex-shrink: 0; */
+  width: 35%;
   border: 1px solid green;
 }
 
