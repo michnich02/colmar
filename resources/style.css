@@ -125,12 +125,48 @@ a {
   padding-bottom: 8px;
 }
 
-/* ***** Start Learning ***** */
+/* ***** Test ***** */
 
-.start-learning {
-  /* padding: 32px 72px; */
-  /* 72-17 */
+.content2 {
+  display: flex;
 }
+
+.stories2 {
+
+}
+
+.story2 {
+  display: flex;
+  border: 1px solid red;
+}
+
+.story-img2 {
+  /* flex-basis: 35%;
+  flex-grow: 0;
+  flex-shrink: 0; */
+  border: 1px solid green;
+}
+
+.story-img2 img {
+  width: 100%;
+  padding: 16px;
+}
+
+.topstory img {
+  padding-top: 0px;
+}
+
+.story-img-text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story-img-text2 p {
+  margin: 8px 0px;
+}
+
+/* ***** Start Learning ***** */
 
 .start-learning h1{
   text-align: center;
