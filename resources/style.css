@@ -150,7 +150,7 @@ a {
 
 .story-img2 img {
   width: 100%;
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .topstory img {
@@ -158,6 +158,7 @@ a {
 }
 
 .story-img-text2 {
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: center;
