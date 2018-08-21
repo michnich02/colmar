@@ -2,6 +2,7 @@ html {
   font-size: 16px;
   box-sizing: border-box;
   font-family: Oswald;
+  color: #474747;
 }
 
 a {
@@ -17,6 +18,14 @@ h1 {
   line-height: 2.75rem;
 }
 
+img {
+  border: 5px solid #474747;
+}
+
+video {
+  border: 5px solid #474747;
+}
+
 /* ***** Header ***** */
 
 .header {
@@ -25,6 +34,10 @@ h1 {
   align-items: center;
   margin: 1rem 1.5rem;
   justify-content: space-between;
+}
+
+.header img {
+  border: none;
 }
 
 .header span {
@@ -109,7 +122,7 @@ h1 {
 
 .main-banner {
   display: flex;
-  background-color: #bdbdbd;
+  background-color: #dadada;
 }
 
 .main-banner-content {
@@ -124,7 +137,7 @@ h1 {
   background-color: #474747;
   text-align: center;
   width: 80%;
-  color: #ffffff;
+  color: #e4e4e4;
   font-weight: lighter;
 }
 
@@ -153,21 +166,28 @@ h1 {
   display: flex;
 }
 
-.content h1 {
+.stories h1 {
   font-size: 1.5rem;
 }
 
 .left-content p {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.25rem;
 }
 
 .top-image img {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .story {
   display: flex;
+}
+
+.story-img-text a {
+  color: #3F7DF6;
+  font-weight: lighter;
 }
 
 .story-img {
@@ -189,17 +209,24 @@ h1 {
   flex-direction: column;
   justify-content: center;
   width: 65%;
+  margin-left: 0.5rem;
 }
 
 .story-img-text p {
-  margin: 0.5rem 0rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.25rem;
 }
 
 /* ***** Start Learning ***** */
 
+.start-learning {
+  background-color: #dadada;
+}
+
 .start-learning h1{
   text-align: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
+  width: 100%;
 }
 
 .course-section {
@@ -215,25 +242,49 @@ h1 {
   width: 25%;
   margin: 1rem;
   align-items: center;
+  border: 10px solid #474747;
+  background-color: #ffffff;
 }
 
 .course-image img {
   width: 100%;
+  border: none;
+  border-bottom: 1px solid #474747;
 }
 
 .course-description {
-  padding: 1rem 0rem 1.5rem 1rem;
+  margin: 1rem 0rem 1.5rem 0rem;
+  width: 80%;
+}
+
+.course-description h2 {
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .course-description p {
   margin: 0.5rem auto;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  color: #a9a9a9;
+}
+
+.course-description span {
+  font-weight: lighter;
+  line-height: 1.25rem;
+  color: #a9a9a9;
 }
 
 /* ***** Thesis ***** */
 
 .thesis-content h1{
-  text-align: center;
   margin-top: 2rem;
+  width: 100%;
+}
+
+.thesis-exhibit {
+  text-align: center;
 }
 
 .thesis {
@@ -244,9 +295,15 @@ h1 {
   width: 100%;
 }
 
-.top-video video {
-  padding-bottom: 2rem;
+.story-img-text h1 {
+  font-size: 1.5rem;
 }
+
+.reimagine {
+  font-size: 1.5rem;
+}
+
+
 
 /* ***** Footer ***** */
 
