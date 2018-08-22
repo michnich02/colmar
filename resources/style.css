@@ -422,6 +422,10 @@ video {
     transition: 30ms 50ms;
   }
 
+  .start-learning h1{
+    margin-left: 0;
+  }
+
   .course h2 {
 
   }
@@ -468,6 +472,10 @@ video {
 
   .thesis h1 {
     display: none;
+  }
+
+  .thesis-content h1{
+    margin-left: 0;
   }
 
   .top-video video{
